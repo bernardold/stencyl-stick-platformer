@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="35" id="0"/>
+                </set-font-new>
+                <comment-wrapper comment="false" x="26" y="67">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="37" y="87">
+                            <group eventID="1" id="-1">
+                                <draw-text comment="false" x="48" y="112">
+                                    <get-val-22-1 comment="false" id="0" x="0" y="0"/>
+                                    <minus comment="false" id="1" x="0" y="0">
+                                        <div comment="false" id="0" x="0" y="0">
+                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                            </screen-wh>
+                                            <int id="1" val="2"/>
+                                        </div>
+                                        <div comment="false" id="1" x="0" y="0">
+                                            <get-font-width comment="false" id="0" x="0" y="0">
+                                                <get-val-22-1 comment="false" id="0" x="0" y="0"/>
+                                            </get-font-width>
+                                            <int id="1" val="2"/>
+                                        </div>
+                                    </minus>
+                                    <int id="2" val="270"/>
+                                </draw-text>
+                            </group>
+                            <get-game-val-5 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                    <int id="0" val="Commands Help at the beginning"/>
+                </comment-wrapper>
+                <comment-wrapper comment="false" x="26" y="179">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="37" y="199">
+                            <group eventID="1" id="-1">
+                                <draw-text comment="false" x="48" y="224">
+                                    <get-val-22-2 comment="false" id="0" x="0" y="0"/>
+                                    <minus comment="false" id="1" x="0" y="0">
+                                        <div comment="false" id="0" x="0" y="0">
+                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                            </screen-wh>
+                                            <int id="1" val="2"/>
+                                        </div>
+                                        <div comment="false" id="1" x="0" y="0">
+                                            <get-font-width comment="false" id="0" x="0" y="0">
+                                                <get-val-22-2 comment="false" id="0" x="0" y="0"/>
+                                            </get-font-width>
+                                            <int id="1" val="2"/>
+                                        </div>
+                                    </minus>
+                                    <int id="2" val="270"/>
+                                </draw-text>
+                            </group>
+                            <get-game-val-6 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                    <int id="0" val="Pencil Help when picks up"/>
+                </comment-wrapper>
+                <comment-wrapper comment="false" x="26" y="291">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="37" y="311">
+                            <group eventID="1" id="-1">
+                                <draw-text comment="false" x="48" y="336">
+                                    <get-val-22-3 comment="false" id="0" x="0" y="0"/>
+                                    <minus comment="false" id="1" x="0" y="0">
+                                        <div comment="false" id="0" x="0" y="0">
+                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                            </screen-wh>
+                                            <int id="1" val="2"/>
+                                        </div>
+                                        <div comment="false" id="1" x="0" y="0">
+                                            <get-font-width comment="false" id="0" x="0" y="0">
+                                                <get-val-22-3 comment="false" id="0" x="0" y="0"/>
+                                            </get-font-width>
+                                            <int id="1" val="2"/>
+                                        </div>
+                                    </minus>
+                                    <int id="2" val="270"/>
+                                </draw-text>
+                            </group>
+                            <get-game-val-7 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                    <int id="0" val="Eraser Help when picks it up"/>
+                </comment-wrapper>
+                <comment-wrapper comment="false" x="26" y="403">
+                    <group eventID="1" id="-1">
+                        <if comment="false" x="37" y="423">
+                            <group eventID="1" id="-1">
+                                <draw-text comment="false" x="48" y="448">
+                                    <get-val-22-4 comment="false" id="0" x="0" y="0"/>
+                                    <minus comment="false" id="1" x="0" y="0">
+                                        <div comment="false" id="0" x="0" y="0">
+                                            <screen-wh comment="false" id="0" x="0" y="0">
+                                                <int id="0" val="0"/>
+                                            </screen-wh>
+                                            <int id="1" val="2"/>
+                                        </div>
+                                        <div comment="false" id="1" x="0" y="0">
+                                            <get-font-width comment="false" id="0" x="0" y="0">
+                                                <get-val-22-4 comment="false" id="0" x="0" y="0"/>
+                                            </get-font-width>
+                                            <int id="1" val="2"/>
+                                        </div>
+                                    </minus>
+                                    <int id="2" val="270"/>
+                                </draw-text>
+                            </group>
+                            <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                    <int id="0" val="Crouch Help on lvl 04"/>
+                </comment-wrapper>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-val-22-1 comment="false" x="26" y="40">
+                    <int id="0" val="Use arrows &amp;lt;left&amp;gt; and &amp;lt;right&amp;gt; to move and &amp;lt;down&amp;gt; to crouch"/>
+                </set-val-22-1>
+                <set-val-22-2 comment="false" x="26" y="60">
+                    <int id="0" val="Use the Pencil &amp;lt;z&amp;gt; to draw a bridge on the dotted line"/>
+                </set-val-22-2>
+                <set-val-22-3 comment="false" x="26" y="80">
+                    <int id="0" val="Use the Eraser &amp;lt;x&amp;gt; to erase Barriers and Enemies"/>
+                </set-val-22-3>
+                <set-val-22-4 comment="false" x="26" y="100">
+                    <int id="0" val="Use crouch to dodge the bullets"/>
+                </set-val-22-4>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
+</groups>

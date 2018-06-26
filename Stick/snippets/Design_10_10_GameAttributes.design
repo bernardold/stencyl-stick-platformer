@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="18" id="0"/>
+                </set-font-new>
+                <comment-wrapper comment="false" x="26" y="67">
+                    <group eventID="1" id="-1">
+                        <draw-text comment="false" x="37" y="87">
+                            <int id="0" val="Items: "/>
+                            <int id="1" val="160"/>
+                            <int id="2" val="20"/>
+                        </draw-text>
+                        <if comment="false" x="37" y="107">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="48" y="132">
+                                    <actortype eid="7" id="0"/>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="162"/>
+                                        <get-font-width comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="Items: "/>
+                                        </get-font-width>
+                                    </plus>
+                                    <int id="2" val="25"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                                <draw-text comment="false" x="48" y="169">
+                                    <int id="0" val="&amp;lt;z&amp;gt;"/>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="165"/>
+                                        <plus comment="false" id="1" x="0" y="0">
+                                            <get-wh comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="lastcreated" id="0"/>
+                                                <int id="1" val="0"/>
+                                            </get-wh>
+                                            <get-font-width comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="Items: "/>
+                                            </get-font-width>
+                                        </plus>
+                                    </plus>
+                                    <int id="2" val="20"/>
+                                </draw-text>
+                            </group>
+                            <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                        <if comment="false" x="37" y="224">
+                            <group eventID="1" id="-1">
+                                <create-actor3 comment="false" x="48" y="249">
+                                    <actortype eid="9" id="0"/>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="162"/>
+                                        <get-font-width comment="false" id="1" x="0" y="0">
+                                            <int id="0" val="Items: "/>
+                                        </get-font-width>
+                                    </plus>
+                                    <int id="2" val="75"/>
+                                    <int id="3" val="0"/>
+                                </create-actor3>
+                                <draw-text comment="false" x="48" y="286">
+                                    <int id="0" val="&amp;lt;x&amp;gt;"/>
+                                    <plus comment="false" id="1" x="0" y="0">
+                                        <int id="0" val="165"/>
+                                        <plus comment="false" id="1" x="0" y="0">
+                                            <get-wh comment="false" id="0" x="0" y="0">
+                                                <ACTOR eid="lastcreated" id="0"/>
+                                                <int id="1" val="0"/>
+                                            </get-wh>
+                                            <get-font-width comment="false" id="1" x="0" y="0">
+                                                <int id="0" val="Items: "/>
+                                            </get-font-width>
+                                        </plus>
+                                    </plus>
+                                    <int id="2" val="65"/>
+                                </draw-text>
+                            </group>
+                            <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        </if>
+                    </group>
+                    <int id="0" val="Show Items on the screen"/>
+                </comment-wrapper>
+                <comment-wrapper comment="false" x="26" y="353">
+                    <group eventID="1" id="-1">
+                        <draw-text comment="false" x="37" y="373">
+                            <int id="0" val="Level "/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <int id="0" val="600"/>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-width comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="Level "/>
+                                    </get-font-width>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </minus>
+                            <int id="2" val="20"/>
+                        </draw-text>
+                        <draw-text comment="false" x="37" y="408">
+                            <get-game-val-4 comment="false" id="0" x="0" y="0"/>
+                            <plus comment="false" id="1" x="0" y="0">
+                                <int id="0" val="600"/>
+                                <div comment="false" id="1" x="0" y="0">
+                                    <get-font-width comment="false" id="0" x="0" y="0">
+                                        <int id="0" val="Level "/>
+                                    </get-font-width>
+                                    <int id="1" val="2"/>
+                                </div>
+                            </plus>
+                            <int id="2" val="20"/>
+                        </draw-text>
+                    </group>
+                    <int id="0" val="Show level on the screen"/>
+                </comment-wrapper>
+                <comment-wrapper comment="false" x="26" y="455">
+                    <group eventID="1" id="-1">
+                        <draw-text comment="false" x="37" y="475">
+                            <int id="0" val="Lifes:"/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <int id="0" val="1100"/>
+                                <get-font-width comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="Lifes: x"/>
+                                </get-font-width>
+                            </minus>
+                            <int id="2" val="20"/>
+                        </draw-text>
+                        <draw-text comment="false" x="37" y="505">
+                            <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                            <minus comment="false" id="1" x="0" y="0">
+                                <int id="0" val="1100"/>
+                                <get-font-width comment="false" id="1" x="0" y="0">
+                                    <int id="0" val="x"/>
+                                </get-font-width>
+                            </minus>
+                            <int id="2" val="20"/>
+                        </draw-text>
+                    </group>
+                    <int id="0" val="Show lifes on the screen"/>
+                </comment-wrapper>
+            </group>
+        </draw>
+    </group>
+    <group eventID="1" id="-1"/>
+</groups>

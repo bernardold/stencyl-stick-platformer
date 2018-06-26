@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="1" id="-1">
+                        <play-sound4 comment="false" x="37" y="92">
+                            <int id="0" val="0"/>
+                            <sound eid="29" id="1"/>
+                        </play-sound4>
+                        <create-actor3 comment="false" x="37" y="119">
+                            <actortype eid="3" id="0"/>
+                            <int id="1" val="755"/>
+                            <int id="2" val="536"/>
+                            <int id="3" val="0"/>
+                        </create-actor3>
+                        <set-val-26-2 comment="false" x="37" y="146">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-26-2>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-val-26-1 comment="false" id="0" x="0" y="0"/>
+                        <and comment="false" id="1" x="0" y="0">
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-26-2 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                            <and comment="false" id="1" x="0" y="0">
+                                <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                                <and comment="false" id="1" x="0" y="0">
+                                    <moreeq comment="false" id="0" x="0" y="0">
+                                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="710"/>
+                                    </moreeq>
+                                    <lesseq comment="false" id="1" x="0" y="0">
+                                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="735"/>
+                                    </lesseq>
+                                </and>
+                            </and>
+                        </and>
+                    </and>
+                </if>
+            </group>
+            <control eid="4" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="2" id="-1">
+                        <play-sound4 comment="false" x="37" y="87">
+                            <int id="0" val="0"/>
+                            <sound eid="30" id="1"/>
+                        </play-sound4>
+                        <die comment="false" x="37" y="114">
+                            <ACTOR eid="2" id="0"/>
+                        </die>
+                        <set-val-26-3 comment="false" x="37" y="141">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-26-3>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <not comment="false" id="0" x="0" y="0">
+                            <get-val-26-3 comment="false" id="0" x="0" y="0"/>
+                        </not>
+                        <and comment="false" id="1" x="0" y="0">
+                            <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                            <and comment="false" id="1" x="0" y="0">
+                                <moreeq comment="false" id="0" x="0" y="0">
+                                    <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="435"/>
+                                </moreeq>
+                                <lesseq comment="false" id="1" x="0" y="0">
+                                    <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="451"/>
+                                </lesseq>
+                            </and>
+                        </and>
+                    </and>
+                </if>
+            </group>
+            <control eid="5" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-key-press-release comment="false" x="15" y="15">
+            <group eventID="3" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="3" id="-1">
+                        <play-sound4 comment="false" x="37" y="92">
+                            <int id="0" val="0"/>
+                            <sound eid="30" id="1"/>
+                        </play-sound4>
+                        <die comment="false" x="37" y="119">
+                            <ACTOR eid="3" id="0"/>
+                        </die>
+                        <set-val-26-1 comment="false" x="37" y="146">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-26-1>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-val-26-3 comment="false" id="0" x="0" y="0"/>
+                        <and comment="false" id="1" x="0" y="0">
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-26-1 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                            <and comment="false" id="1" x="0" y="0">
+                                <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                                <and comment="false" id="1" x="0" y="0">
+                                    <moreeq comment="false" id="0" x="0" y="0">
+                                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="630"/>
+                                    </moreeq>
+                                    <lesseq comment="false" id="1" x="0" y="0">
+                                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="650"/>
+                                    </lesseq>
+                                </and>
+                            </and>
+                        </and>
+                    </and>
+                </if>
+                <if comment="false" x="26" y="183">
+                    <group eventID="3" id="-1">
+                        <play-sound4 comment="false" x="37" y="233">
+                            <int id="0" val="0"/>
+                            <sound eid="30" id="1"/>
+                        </play-sound4>
+                        <die comment="false" x="37" y="260">
+                            <ACTOR eid="4" id="0"/>
+                        </die>
+                        <set-val-26-4 comment="false" x="37" y="287">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-26-4>
+                    </group>
+                    <and comment="false" id="0" x="0" y="0">
+                        <get-val-26-2 comment="false" id="0" x="0" y="0"/>
+                        <and comment="false" id="1" x="0" y="0">
+                            <not comment="false" id="0" x="0" y="0">
+                                <get-val-26-4 comment="false" id="0" x="0" y="0"/>
+                            </not>
+                            <and comment="false" id="1" x="0" y="0">
+                                <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                                <and comment="false" id="1" x="0" y="0">
+                                    <moreeq comment="false" id="0" x="0" y="0">
+                                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="930"/>
+                                    </moreeq>
+                                    <lesseq comment="false" id="1" x="0" y="0">
+                                        <get-game-val-2 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="950"/>
+                                    </lesseq>
+                                </and>
+                            </and>
+                        </and>
+                    </and>
+                </if>
+            </group>
+            <control eid="5" id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>
